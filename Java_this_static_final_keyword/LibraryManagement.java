@@ -1,23 +1,22 @@
 class Book {
     static String libraryName;
-    
     final int isbn;
-        String title;
+    String title;
     String author;
-        public Book(int isbn, String title, String author) {
+    public Book(int isbn, String title, String author) {
         this.isbn = isbn;
         this.title = title;
         this.author = author;
     }
-        void displayDetails() {
+    void displayDetails() {
         System.out.println("ISBN: " + isbn);
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
     }
-        static void setLibraryName(String name) {
+    static void setLibraryName(String name) {
         libraryName = name;
     }
-        static String DisplayLibraryName() {
+    static String DisplayLibraryName() {
         return libraryName;
     }    
 }

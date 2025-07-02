@@ -38,7 +38,7 @@ public class ShopingCart {
 
         Product.displayDiscountRate();
         System.out.println();
-         Product.displayDiscountRate(); 
+        Product.displayDiscountRate(); 
         Product.updateDiscountRate(15);
         Product.upDiscountRate();
         System.out.println();
